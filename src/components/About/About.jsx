@@ -1,5 +1,8 @@
-import { getImageUrl } from "../../utils";
 import styles from "./About.module.css";
+
+import aboutImage from "../../../public/assets/about/aboutImage.png";
+import cursorIcon from "../../../public/assets/about/cursorIcon.png";
+
 export const About = () => {
   return (
     <section className={styles.container} id="about">
@@ -7,13 +10,13 @@ export const About = () => {
 
       <div className={styles.content}>
         <img
-          src={getImageUrl("about/aboutImage.png")}
+          src={aboutImage}
           alt="Illustration of me working on a laptop"
           className={styles.aboutImage}
         />
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor Icon" />
+            <img src={cursorIcon} alt="Cursor Icon" /> 
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>

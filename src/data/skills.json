@@ -1,22 +1,22 @@
 [
   {
     "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "imageSrc": "/assets/skills/html.png"
   },
   {
     "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "imageSrc": "/assets/skills/css.png"
   },
   {
     "title": "JavaScript",
-    "imageSrc": "skills/javascript.png"
+    "imageSrc": "/assets/skills/javascript.png"
   },
   {
     "title": "React",
-    "imageSrc": "skills/react.png"
+    "imageSrc": "/assets/skills/react.png"
   },
   {
     "title": "Tailwind CSS",
-    "imageSrc": "skills/tailwindCSS.png"
+    "imageSrc": "/assets/skills/tailwindCSS.png"
   }
 ]
